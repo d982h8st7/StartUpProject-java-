@@ -21,7 +21,18 @@ public class BookTest {
         b = new Book(); // 3. 생성된 객체를 연결(저장)한다. 주소를 저장
                         //  여기서 b 는 Book이라는 객체를 담는 변수이기 때문에 객체변수, 객체라고 부르기도한다. 1.처럼 아무것도 안카리키고있는 경우는 객체변수
                         // 3.객체 b = new Book(); 처름 객체를 연결한 후에는 인트턴스 변수라고 부른다
+        // 실제 데이터 저장하기. Book b = new Book();
+        // b.title ="자바" ( . ) = Dot 도트연산자(참조연산자)
 
 
     }
+
+}
+class Book {
+    public String title;
+    public int price;
+    public String company;
+    public String author;
+    public int page;
+    public String isbn;
 }
