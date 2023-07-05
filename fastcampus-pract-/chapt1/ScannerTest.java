@@ -12,7 +12,15 @@ public class ScannerTest {
         System.out.println("f = " + f);
 
         System.out.print("문자열을 입력하세요: ");
-        String str = scan.nextLine();
+        String str = scan.next();
         System.out.println("str = " + str);
+
+        scan.nextLine();    // clear buffer
+
+        System.out.print("문자열을 입력하세요: ");
+        String str1 = scan.nextLine();
+        System.out.println("str1 = " + str1);
+
+        scan.close();   // end scan
     }
 }

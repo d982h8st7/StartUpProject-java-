@@ -16,6 +16,6 @@ class movieData{
     public String crankUp;
     public String mainChar;
     public String genre;
-    public int time;
     public String restriction;
+    public int time;
 }
